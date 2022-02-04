@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Spline+Sans&family=Ubuntu+Mono&display=swap');
+
+body {
+	font-family: 'Spline Sans', sans-serif;
+	background-color: #008080;
+	color: #FFFFFF;
+	margin: 0;
+	padding: 0;
+}
+*:focus {
+	border: solid 2px #000000;
+}
+
+a#title {
+	display: block;
+	background-color: #ffaa00;
+	color: #fffacd;
+	text-align: center;
+	font-size: 1.5em;
+	margin: 0;
+	padding: 10px;
+	text-decoration: none;
+	position: sticky;
+	top: 0;
+}
+a#title > header > h1 {
+	margin: 0;
+	padding: 0;
+}
+a#title:hover, a#title:focus {
+	background-color: #fffacd;
+	color: #ffaa00;
+}
+a.inherit {
+	background-color: inherit;
+	color: inherit;
+	display: inherit;
+	margin: 0;
+	padding: 0;
+	text-align: inherit;
+	text-decoration: inherit;
+	text-decoration-line: inherit;
+	text-decoration-style: inherit;
+}
+
+main {
+	margin: 0;
+	padding: 1em;
+	padding-top: 0;
+	font-size: 1.25em;
+	font-weight: 500;
+	line-height: 2em;
+}
+main a {
+	font-weight: bold;
+	color: #FFD700;
+	text-decoration: underline;
+}
+main a:hover, main a:focus {
+	color: #008080;
+	background-color: #FFD700;
+}
+article {
+	padding: 1em;
+	border-bottom: solid 5px #fffacd;
+	margin-bottom: 10px;
+}
+
+form {
+	display: inline-block;
+	padding: 15px;
+	border: solid 5px cornflowerblue;
+}
+
+span.result, span#result {
+	display: inline-block;
+	background-color: #888888;
+	margin: 0px;
+	margin-left: 25px;
+	padding: 50px;
+	border-radius: 25px;
+	font-family: 'Ubuntu Mono', monospace;
+	font-size: 2.25em;
+	height: max-content;
+	width: max-content;
+}
+
+p.explain {
+	display: block;
+	border: solid 5px steelblue;
+	padding: 15px;
+}
+
+span.code {
+	background-color: #888888;
+	padding: 5px;
+	border-radius: 10px;
+	font-family: 'Ubuntu Mono', monospace;
+}
+
+input.text-input {
+	font-weight: bold;
+	font-size: 1.125em;
+	padding: 5px;
+	margin: 2.5px;
+}
